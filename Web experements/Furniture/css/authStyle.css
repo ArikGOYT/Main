@@ -1,0 +1,84 @@
+@import url(reset.css);
+a{
+    color: #B2E3F3;
+}
+.wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main{
+    width: 530px;
+    height: 550px;
+    margin: 0 auto;
+    font-family: Dela Gothic One;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: linear-gradient(to bottom right, rgba(131, 79, 1, 0.71) 8%, rgba(192, 95, 6, 0.89) 17%, rgba(251, 246, 242, 0.99) 36%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(131, 79, 1, 0.71) 8%, rgba(192, 95, 6, 0.89) 17%, rgba(251, 246, 242, 0.99) 36%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(131, 79, 1, 0.71) 8%, rgba(192, 95, 6, 0.89) 17%, rgba(251, 246, 242, 0.99) 36%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(131, 79, 1, 0.71) 8%, rgba(192, 95, 6, 0.89) 17%, rgba(251, 246, 242, 0.99) 36%) top right / 50% 50% no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.title{
+    margin-right: 215px;
+    font-family: Inria Sans;
+    font-size: 44px;
+    font-style: italic;
+    background: linear-gradient(180deg, #FFF 0%, #C7532A 97.4%, #381002 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitle{
+    margin-bottom: 22px;
+    color: #FBE1CE;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 27px;
+}
+.email, .password, .submit{
+    margin-bottom: 15px;
+    width: 350px;
+    padding: 5px 12px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 27px;
+    text-align: left;
+    -webkit-text-stroke: 1px #000;
+    border-radius: 12px;
+    border: 1px solid #5EC1F8;
+    background-color: #F6F4F0;
+    transition: all .2s;
+}
+.upperIcons{
+    margin-bottom: 15px; 
+    -webkit-text-stroke: .5px #000;
+    font-size: 22px;
+}
+.question{
+    margin-top: 20px;
+}
+.vk, .google{
+    transform: scale(.8);
+}
+.email:focus, .password:focus, .submit:focus{
+    transform: scale(1.05);
+}
+.reg:hover{
+    transform: scale(1.07);
+    transition: all .2s;
+}
+.logIn:hover{
+    transform: scale(1.07);
+    transition: all .2s;
+}
+.vk:hover, .google:hover{
+    transform: scale(1);
+    transition: all .2s;
+}
+.ok:hover{
+    transform: scale(1.2);
+    transition: all .2s;
+}

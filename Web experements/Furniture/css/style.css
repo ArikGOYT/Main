@@ -1,0 +1,35 @@
+@import url(reset.css);
+.wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, #C36B05 0%, #F0EEEE 38.02%, #E9D096 43.23%, #E5C87D 55.73%, #ECB575 86.98%);
+}
+.photo{
+    border: solid 1px #000;
+    border-radius: 0px 25px 25px 0px;
+}
+.text{
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Dela Gothic One;
+    font-size: 52px;
+    -webkit-text-stroke: 3.5px #000;
+}
+.name{
+    margin-top: 230px;
+    margin-bottom: 90px;
+}
+.cart{
+    margin: 40px 35px 40px 0px;
+    font-size: 75px;
+    border: 6px solid #000;
+    background: #F2E03E;
+    transition: all .3s;
+}
+.cart:hover{
+    transform: scale(1.1);
+    border: 6px solid #fff;
+    background: rgb(255, 250, 175);
+}
