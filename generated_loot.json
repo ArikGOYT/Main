@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Cloak of Elvenkind",
+    "level": 4,
+    "price_gp": 85,
+    "rarity": "uncommon",
+    "traits": [
+      "magical",
+      "illusion",
+      "transmutation"
+    ],
+    "category": "Worn Items",
+    "description": "Этот плащ из серо-зелёной ткани помогает вам сливаться с окружением..."
+  },
+  {
+    "name": "Potency Rune +1",
+    "level": 4,
+    "price_gp": 70,
+    "rarity": "common",
+    "traits": [
+      "magical"
+    ],
+    "category": "Runes",
+    "description": "Руна силы увеличивает бонус атаки оружия..."
+  },
+  {
+    "name": "Striking Rune",
+    "level": 4,
+    "price_gp": 65,
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "transmutation"
+    ],
+    "category": "Runes",
+    "description": "Руна удара добавляет кость урона оружию..."
+  },
+  {
+    "name": "Bag of Holding",
+    "level": 3,
+    "price_gp": 60,
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "conjuration"
+    ],
+    "category": "Worn Items",
+    "description": "Эта сумка выглядит как обычная кожаная сумка размером около 1½ на 2 фута..."
+  },
+  {
+    "name": "Hand of the Mage",
+    "level": 1,
+    "price_gp": 18,
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "evocation",
+      "force"
+    ],
+    "category": "Held Items",
+    "description": "Эта фиолетовая перчатка позволяет использовать телекинез..."
+  },
+  {
+    "name": "Alchemist's Fire",
+    "level": 1,
+    "price_gp": 4,
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "bomb",
+      "fire"
+    ],
+    "category": "Alchemical Items",
+    "description": "Эта бутылочка с алхимической жидкостью вспыхивает при контакте с воздухом..."
+  },
+  {
+    "name": "Elixir of Life",
+    "level": 1,
+    "price_gp": 4,
+    "rarity": "common",
+    "traits": [
+      "alchemical",
+      "consumable",
+      "elixir",
+      "healing"
+    ],
+    "category": "Alchemical Items",
+    "description": "Этот эликсир восстанавливает здоровье при употреблении..."
+  },
+  {
+    "name": "Oil of Magic Weapon",
+    "level": 1,
+    "price_gp": 4,
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "consumable",
+      "oil"
+    ],
+    "category": "Consumables",
+    "description": "Это масло делает оружие магическим на короткое время..."
+  },
+  {
+    "name": "Potion of Healing",
+    "level": 1,
+    "price_gp": 4,
+    "rarity": "common",
+    "traits": [
+      "magical",
+      "consumable",
+      "potion",
+      "healing"
+    ],
+    "category": "Consumables",
+    "description": "Зелье лечения восстанавливает 1d8+HP при употреблении..."
+  }
+]
