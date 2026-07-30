@@ -1,0 +1,24 @@
+# Core dependencies
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13
+gTTS>=2.3.0
+playsound>=1.3.0
+
+# AI/LLM integration
+openai>=1.0.0
+google-generativeai>=0.3.0
+
+# System utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+schedule>=1.2.0
+
+# Optional: For better TTS
+pyttsx3>=2.90
+
+# Optional: For system control
+psutil>=5.9.0
+
+# Optional: For web search
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
